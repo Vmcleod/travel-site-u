@@ -11,3 +11,10 @@ img {
 * {
     box-sizing: border-box;
 }
+
+
+/* default link color */
+
+a {
+    color: $mainOrange;
+}
