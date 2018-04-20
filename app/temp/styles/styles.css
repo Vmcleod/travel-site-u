@@ -492,7 +492,7 @@ img {
 .large-hero__title {
             font-size: 4.8rem
     }
-  }
+    }
 
 .large-hero__subtitle {
         font-weight: 300;
@@ -506,7 +506,7 @@ img {
 .large-hero__subtitle {
             font-size: 2.9rem
     }
-  }
+    }
 
 .large-hero__description {
         color: #FFF;
@@ -523,7 +523,7 @@ img {
 .large-hero__description {
             font-size: 1.875rem
     }
-  }
+    }
 
 .btn {
   background-color: #2f5572;
@@ -547,7 +547,7 @@ img {
 .btn--large {
       font-size: 1.25rem
   }
-  }
+    }
 
 /* this is for the margin & padding on the left and right */
 
@@ -579,7 +579,7 @@ img {
 .page-section {
         padding: 4.5rem 0
 }
-  }
+    }
 
 .page-section--blue {
         background-color: #2f5572;
@@ -597,7 +597,7 @@ img {
 .headline {
         font-size: 2.875rem
 }
-  }
+    }
 
 .headline--centered {
         text-align: center;
@@ -616,7 +616,7 @@ img {
 .headline {
         font-size: 1.875rem
 }
-  }
+    }
 
 .headline--narrow {
         max-width: 500px;
@@ -636,4 +636,28 @@ img {
 
 .headline--b-margin-large {
         margin-bottom: 1.6em;
+    }
+
+/* this block is for the picture and text  */
+
+.row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+.row--gutters>div {
+        padding-right: 65px;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+    }
+
+.row__4 {
+        float: left;
+        width: 33.33%;
+    }
+
+.row__8 {
+        float: left;
+        width: 66.66%
     }
